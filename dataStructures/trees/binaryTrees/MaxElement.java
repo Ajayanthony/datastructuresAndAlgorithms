@@ -9,7 +9,6 @@ public class MaxElement {
 
     /**
      * Recursive approach of checking left and right subtree.
-     *
      * @param root Root node.
      * @return Max int value.
      */
