@@ -1,4 +1,4 @@
-package dataStructures.trees.binaryTrees;
+package trees.binaryTrees;
 
 /**
  * Node class represents the nodes of a binary tree.
