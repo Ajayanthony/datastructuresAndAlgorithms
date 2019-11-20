@@ -15,7 +15,7 @@ public class TreeDiameter {
         int rightDiameter = getTreeDiameter(root.right);
 
         int rootDiameter = BinaryTreeUtils.getHeight(root.left) +
-                BinaryTreeUtils.getHeight(root.right) + 3;
+                BinaryTreeUtils.getHeight(root.right) + 1;
         int childDiameter = Math.max(leftDiameter, rightDiameter);
 
         return Math.max(rootDiameter, childDiameter);

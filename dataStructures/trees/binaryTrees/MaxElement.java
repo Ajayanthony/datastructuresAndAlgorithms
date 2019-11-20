@@ -12,7 +12,7 @@ public class MaxElement {
      * @param root Root node.
      * @return Max int value.
      */
-    public int getMaxElementUsingRecursion(Node root) {
+    public static int getMaxElementUsingRecursion(Node root) {
         if (root == null) return Integer.MIN_VALUE;
         int leftMax = getMaxElementUsingRecursion(root.left);
         int rightMax = getMaxElementUsingRecursion(root.right);
@@ -32,7 +32,7 @@ public class MaxElement {
      * @param root Root of tree.
      * @return Max int val.
      */
-    public int getMaxElementWithoutRecursion(Node root) {
+    public static int getMaxElementWithoutRecursion(Node root) {
         LinkedList<Node> queue = new LinkedList<Node>();
         int maxVal = Integer.MIN_VALUE;
         queue.add(root);
