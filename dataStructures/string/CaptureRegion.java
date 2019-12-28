@@ -6,9 +6,11 @@ package string;
  * The elements not surrounded by ‘X’ means that exists a path of
  * elements ‘O’ to a border.
  */
-public class ConvertXtoO_2D {
+public class CaptureRegion {
 
     public static void convertXtoO(char[][] input) {
+        char[][] result = new char[input.length][input[0].length];
+
 
     }
 
